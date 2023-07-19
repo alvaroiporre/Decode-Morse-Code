@@ -13,25 +13,29 @@ def decode_char(data)
 end
 
 def decode_word(word)
-  decode = ''
-  character = ''
-  spaces = 0
+  new_word = ''
+  characters = ''
   word.each_char do |ch|
     if ch == ' '
-      spaces += 1
-      if character.length.positive?
-        decode += decode_char character
-        character = ''
+      if characters.length.positive?
+        new_word += decode_char characters
+        characters = ''
       end
     else
-      character += ch
-      decode += ' ' if spaces > 1
-      spaces = 0
+      characters += ch
     end
   end
-  decode += decode_char character if character.length.positive?
-  decode
+  new_word += decode_char characters if characters.length.positive?
+  new_word
 end
 
-print "#{decode_word('-- -.--   -. .- -- .')}\n"
-print decode_word('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+def decode(str)
+  words = str.split('   ')
+  decoded_words = ''
+  words.each do |w|
+    decoded_words += "#{decode_word(w)} "
+  end
+  decoded_words
+end
+
+print decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
