@@ -176,11 +176,11 @@ Example:
 - Twitter: [@alvaro.iporre](https://twitter.com/Alvaro41065582)
 - LinkedIn: [Álvaro Iporre](https://www.linkedin.com/in/alvaroiporre/)
 
-<!-- 👤 **Therese Tuyisabe**
+👤 **Therese Tuyisabe**
 
 - GitHub: [@theresetuyi](https://github.com/theresetuyi)
 - Twitter: [@THERESETUYISAB2](https://twitter.com/THERESETUYISAB2)
-- LinkedIn: [therese-tuyisabe](https://www.linkedin.com/in/therese-tuyisabe/) -->
+- LinkedIn: [therese-tuyisabe](https://www.linkedin.com/in/therese-tuyisabe/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
