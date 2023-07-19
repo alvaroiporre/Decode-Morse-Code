@@ -2,11 +2,11 @@
 
 <div align="center">
 
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <!-- You are encouraged to replace this logo with your own! Otherwise, you can also remove it. -->
   <br/>
   <br/>
   <br/>
-  <h1><b>PROJECT NAME</b></h1><a name="about-project"></a>
+  <h1><b>Decode-Morse-Code</b></h1><a name="about-project"></a>
 </div>
 
 <!--
@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Project Name <a name="about-project"></a>
 
-> The **ProjectName** something about the project.
+> The **Decode-Morse-Code** Decode-Morse-Code" is a Ruby project designed to tackle basic coding challenges, focusing on telecommunication's vital method of encoding text characters into standardized sequences of dots and dashes, known as Morse code.
 
 ## 🛠 Built With <a name="built-with"></a>
 
