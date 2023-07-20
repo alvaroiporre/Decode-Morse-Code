@@ -1,13 +1,13 @@
 require_relative 'my_enumerable'
 
 class MyList
- include MyEnumerable
+  include MyEnumerable
 
-  def initialize (*items)
+  def initialize(*items)
     @list = items
   end
- 
-  def each
-    @list.each { |item|yield item}
+
+  def each(&block)
+    @list.each(&block)
   end
- end 
+end
